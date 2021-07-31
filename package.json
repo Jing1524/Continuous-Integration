@@ -1,0 +1,25 @@
+{
+  "name": "Continuous-Integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jing1524/Continuous-Integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jing1524/Continuous-Integration/issues"
+  },
+  "homepage": "https://github.com/Jing1524/Continuous-Integration#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3"
+  }
+}
